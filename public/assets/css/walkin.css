@@ -1,0 +1,252 @@
+.login-cont{
+    background-color: #F2F5FA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+.login-form{
+    background-color: #FFFFFF;
+    height: fit-content;
+    min-width: 620px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+}
+.login-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.form-label{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;   
+}
+.link{
+    cursor: pointer;
+}
+.link:hover{
+    color: #D75219 !important;
+}
+.active{
+    color: #D75219 !important;
+}
+.form-control-label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.box{
+    z-index: 1;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+.box1{
+    z-index: 1;
+    position: absolute;
+    right: 25%;
+    bottom: 2%;
+}
+.red{
+    color: #D73019 !important;
+}
+.blue{
+    color: #5c4feb;
+}
+.btn-cancel{
+    border: 1px solid #D73019;
+    color: #D73019;
+    background-color: #fff;
+    height: 55px;
+    width: 100%;
+}
+.btn-cancel:hover{
+    background-color: #D73019;
+    color: #fff;
+}
+
+.btn-prcdtopayment{
+  background-color: #1B1464;
+  color: #fff;
+  border: 1px solid #1B1464;
+}
+.btn-prcdtopayment:hover{
+  color: #fff;
+  background-color: #0E0942;
+}
+.main{
+    padding-left: 0 !important;
+    height: auto !important;
+}
+.main-cont{
+    padding: 50px;
+}
+.badge-unverfied{
+  background-color: #fff;
+  border: 1px solid#D73019;
+  color: #D73019;
+  padding: 5px;
+  border-radius: 5px;
+}
+.badge-verified{
+  background-color: #fff;
+  border: 1px solid#10865C;
+  color: #10865C;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.active {
+  border-bottom: 2px solid #D73019 !important;
+  color: #000 !important;
+}
+.back-arrow{
+    column-gap: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.navs{
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+.border-none{
+    border: none;
+}
+.text-label{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.text-orange{
+    color: #D75219 !important;
+}
+.text-gray{
+    color: #62616A !important;
+}
+.text-green{
+    color: #297C6F;
+}
+.custom-hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.edit-btn{
+    column-gap: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.order-items{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #31303E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.text-header{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    color: #000000;
+}
+.item-cont{
+    border: 1px solid #C2CBD7;
+    background-color: #F2F5FA;
+    color: #62616A;
+    padding: 10px;
+}
+.summary-items{
+    border-bottom: 1px solid #E8E8E8;
+    padding-left: 0px;
+    min-height: 50px;
+}
+.btn-paid{
+    background: #1B1464;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-paid:hover{
+    background: #fff;
+    color: #1B1464;
+    border: 1px solid #1B1464;
+}
+.btn-paid:disabled:hover{
+    background: #1B1464;
+    color: #fff;
+}
+.form-group{
+    margin-bottom: 2rem;
+}
+.btn-gray {
+    min-width: 115px;
+    background-color: #9199A4;
+    color: #fff;
+}
+.btn-gray:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #9199A4;
+}
+.btn-orange {
+    min-width: 115px;
+    background-color: #D73019;
+    color: #fff;
+}
+.btn-orange:hover{
+    background-color: #fff;
+    color: #D73019;
+    border: 1px solid #D73019;
+}
+.btn-orange:disabled:hover{
+    background: #D73019;
+    color: #fff;
+}
+.btn-outline-orange{
+    min-width: 115px;
+    background-color: #fff;
+    color: #D73019;
+    border: 1px solid #D73019;
+}
+.btn-outline-orange:hover{
+    background-color: #D73019;
+    color: #fff;
+    border: none;
+}
+.btn-outline-orange:hover .icon{
+    fill: #fff;
+}
+.btn-outline-orange:disabled:hover{
+    background: #fff;
+    color: #D73019;
+    border: 1px solid #D73019;
+}
+.btn-outline-orange:disabled:hover .icon{
+    fill: #D73019;
+}
+.btn-outline-blue{
+    background-color: #fff;
+    color: #1B1464;
+    border: 2px solid #1B1464;
+    font-weight: 500;
+}
+.btn-outline-blue:hover{
+    background-color: #1B1464;
+    color: #fff;
+}
+.add{
+    color: #5c4feb;
+}
